@@ -1,0 +1,5 @@
+tests/UIMap.class
+tests/myVaccinationTest.class
+tests/verifyLogin.class
+tests/setUpPage.class
+tests/verifyManageIdentity.class

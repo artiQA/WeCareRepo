@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.verifyLogin">
+        <methods>
+          <include name="TeardownTest"/>
+          <include name="testBeforeMethod"/>
+          <include name="enterMpin"/>
+          <include name="clickProfile"/>
+          <include name="selProfile"/>
+          <include name="Initialize"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.verifyLogin -->
+      <class name="tests.myVaccinationTest">
+        <methods>
+          <include name="TeardownTest"/>
+          <include name="verifyVaccinationMessage"/>
+          <include name="testBeforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="ClickMyVaccination"/>
+          <include name="clickDose1"/>
+          <include name="Initialize"/>
+          <include name="verifyFirstQuestion"/>
+        </methods>
+      </class> <!-- tests.myVaccinationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,91 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 21.261 s <<< FAILURE! - in TestSuite
+enterMpin(tests.verifyLogin)  Time elapsed: 0.485 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using xpath=//input[@placeholder='Enter PIN']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LM0001778', ip: 'fe80:0:0:0:1020:2ab0:c559:ee55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at tests.verifyLogin.enterMpin(verifyLogin.java:41)
+
+selProfile(tests.verifyLogin)  Time elapsed: 0.01 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LM0001778', ip: 'fe80:0:0:0:1020:2ab0:c559:ee55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/p1/cv_wg0rj3_1...}, goog:chromeOptions: {debuggerAddress: localhost:54652}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b66a12c0e374842fa5ebdcfc131659c5
+*** Element info: {Using=xpath, value=//*[@id="root"]/div[1]/div/div/div/div/div[1]/div/div[2]/div[1]/img}
+	at tests.verifyLogin.selProfile(verifyLogin.java:47)
+
+clickProfile(tests.verifyLogin)  Time elapsed: 0.006 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LM0001778', ip: 'fe80:0:0:0:1020:2ab0:c559:ee55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/p1/cv_wg0rj3_1...}, goog:chromeOptions: {debuggerAddress: localhost:54652}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b66a12c0e374842fa5ebdcfc131659c5
+*** Element info: {Using=xpath, value=//*[@id="root"]/div[1]/div/div/div/div[2]/nav[1]/div[1]/div}
+	at tests.verifyLogin.clickProfile(verifyLogin.java:54)
+
+ClickMyVaccination(tests.myVaccinationTest)  Time elapsed: 0.006 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LM0001778', ip: 'fe80:0:0:0:1020:2ab0:c559:ee55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/p1/cv_wg0rj3_1...}, goog:chromeOptions: {debuggerAddress: localhost:54652}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b66a12c0e374842fa5ebdcfc131659c5
+*** Element info: {Using=xpath, value=//div[contains(text(),'My Vaccinations')]}
+	at tests.myVaccinationTest.ClickMyVaccination(myVaccinationTest.java:19)
+
+clickDose1(tests.myVaccinationTest)  Time elapsed: 0.005 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LM0001778', ip: 'fe80:0:0:0:1020:2ab0:c559:ee55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/p1/cv_wg0rj3_1...}, goog:chromeOptions: {debuggerAddress: localhost:54652}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b66a12c0e374842fa5ebdcfc131659c5
+*** Element info: {Using=xpath, value=//div[@class='childItem childItem-active']}
+	at tests.myVaccinationTest.clickDose1(myVaccinationTest.java:25)
+
+verifyVaccinationMessage(tests.myVaccinationTest)  Time elapsed: 0.004 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LM0001778', ip: 'fe80:0:0:0:1020:2ab0:c559:ee55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/p1/cv_wg0rj3_1...}, goog:chromeOptions: {debuggerAddress: localhost:54652}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b66a12c0e374842fa5ebdcfc131659c5
+*** Element info: {Using=xpath, value=//body/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div[2]}
+	at tests.myVaccinationTest.verifyVaccinationMessage(myVaccinationTest.java:32)
+
+verifyFirstQuestion(tests.myVaccinationTest)  Time elapsed: 0.005 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LM0001778', ip: 'fe80:0:0:0:1020:2ab0:c559:ee55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/p1/cv_wg0rj3_1...}, goog:chromeOptions: {debuggerAddress: localhost:54652}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b66a12c0e374842fa5ebdcfc131659c5
+*** Element info: {Using=xpath, value=//div[normalize-space()='Are you vaccinated with dose1?']}
+	at tests.myVaccinationTest.verifyFirstQuestion(myVaccinationTest.java:38)
+
